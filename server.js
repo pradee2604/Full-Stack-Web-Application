@@ -93,11 +93,15 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 app.get('/api/delete', function (req, res) {
-  // console.log(req.query.emailid);
- //   connection.query('select * from userdata where emailid = ?',[req.query.emailid], function (error, results, fields) {
- //   if (error) throw error;
- //   res.end(JSON.stringify(results));
- // });
+	
+   console.log(req.query.emailid);
+   connection.query (select * from userdata where emailid = ?',[req.query.emailid], function (error, results, fields) 
+   {
+ 
+	if (error) throw error;
+	res.end(JSON.stringify(results));
+	}
+	);
    var params = {
         Bucket: 'anuuserfiles',
         Key: req.query.key
@@ -138,7 +142,7 @@ app.post('/api/login', function (req, res) {
    if(resu.length > 2){
          response.push({'result' : 'success'});
         res.status(200).send(JSON.stringify(result));
-        //res.render('contact.html')
+        res.render('contact.html')
    }else{
       response.push({'result' : 'Invalid User'});
         res.status(400).send(JSON.stringify(response));
