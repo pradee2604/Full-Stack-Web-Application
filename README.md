@@ -20,16 +20,20 @@
      stored in database.
     
     ![cloud2](https://user-images.githubusercontent.com/31361652/31910378-26cf0936-b7f2-11e7-9389-d0db40925d7d.PNG)
+
    * LOGIN Page: For an EXISTING USER to log in with available credentials and access the
      application.
 
     ![cloud 1](https://user-images.githubusercontent.com/31361652/31910363-1812395e-b7f2-11e7-98b6-4281bf053239.PNG)
+
    * ABOUT ME Page: For user details and general hobbies and details about user.
   
     ![cloud 3](https://user-images.githubusercontent.com/31361652/31910388-2bde37b2-b7f2-11e7-8dee-e1475c5761a4.PNG)
+
    * UPLOAD OPTION: For the user to upload files for storage in Amazon S3.
   
     ![cloud 5](https://user-images.githubusercontent.com/31361652/31910397-347c839c-b7f2-11e7-821f-1b7549361749.PNG)
+
    * RETRIEVE ALL FILES OPTION: to retrieve any previously uploaded file
    * DELETE OPTION: To delete files no longer required by user.
    * UPDATE OPTION: To update already uploaded files. The application will redirect users to
@@ -48,10 +52,12 @@
     
     ![cloud 6](https://user-images.githubusercontent.com/31361652/31910403-3840a4cc-b7f2-11e7-95e9-8a6b76c42370.PNG)
    
-    * Resources Page : User can find links to all the technology used in this application.
+   * Resources Page : User can find links to all the technology used in this application.
+
     ![cloud 8](https://user-images.githubusercontent.com/31361652/31910737-580b3794-b7f3-11e7-8af5-4620fdd4bd8a.PNG)
     
-    * Link to users Facebook, linkedin, gmail and other social media account in a click away.
+   * Link to users Facebook, linkedin, gmail and other social media account in a click away.
+
     ![about](https://user-images.githubusercontent.com/31361652/31915431-4aa516fa-b803-11e7-83ed-9eb78a285173.PNG)
  
  # ARCHITECTURE DIGRAM FOR THIS PROJECT
